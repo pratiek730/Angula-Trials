@@ -1,25 +1,26 @@
-.text-gif {
+.text-gif{
+    text-align: center;
     margin: 100px;
-    /* font-size: 200px; */
-    background-image: url("https://i.pinimg.com/originals/68/5a/14/685a14810bfdafa1d7a779fdc86053fe.gif");
-    width: fit-content;
+    font-size: 200px;
+    background-image: url("../../assets/ezgif.com-gif-maker.gif");
+    /* width: fit-content; */
     height: fit-content;
-    /* background-clip: border-box; */
-    background-position: center;
     background-size: cover;
     -webkit-background-clip: text;
     /* -webkit-text-fill-color: transparent; */
 }
-.text-gif :hover {
-    /* font-size: 200px; */
-    background-image: url("https://i.pinimg.com/originals/68/5a/14/685a14810bfdafa1d7a779fdc86053fe.gif");
-    width: fit-content;
+.text-gif:hover{
+    font-weight: bold;
+    margin: 100px;
+    text-align: center;
+    font-size: 200px;
+    background-image: url("../../assets/ezgif.com-gif-maker.gif");
+    /* width: fit-content; */
     height: fit-content;
-    /* background-clip: border-box; */
-    background-position: center;
     background-size: cover;
     -webkit-background-clip: text;
-    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
+
 
 

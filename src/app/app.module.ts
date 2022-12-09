@@ -6,6 +6,9 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
 import { AddPostFormComponent } from './add-post-form/add-post-form.component';
 import { NavbarBtstComponent } from './navbar-btst/navbar-btst.component';
 import { TextGifComponent } from './text-gif/text-gif.component';
+import { CustomHeaderComponent } from './custom-header/custom-header.component';
+import { FlipCardsComponent } from './flip-cards/flip-cards.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +16,10 @@ import { TextGifComponent } from './text-gif/text-gif.component';
     ContactFormComponent,
     AddPostFormComponent,
     NavbarBtstComponent,
-    TextGifComponent
+    TextGifComponent,
+    CustomHeaderComponent,
+    FlipCardsComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule
